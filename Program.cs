@@ -42,7 +42,7 @@ else
 /*
 Console.WriteLine("Введите День недели: ");
 int day = Convert.ToInt32(Console.ReadLine());
-while (day < 0 && day > 8)
+while (day < 0 || day > 8)
 {
     Console.WriteLine("Неверный день недели, введите снова: ");
     day = Convert.ToInt32(Console.ReadLine());
